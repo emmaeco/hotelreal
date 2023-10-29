@@ -1,0 +1,36 @@
+/* ------ section a */
+
+.background{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    opacity: .8;
+
+   
+}
+
+.main__body{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+
+}
+
+.main__body h1{
+    color: green;
+    text-shadow: 2px 2px black;
+    font-weight: bolder;
+    font-size: 3rem;
+    
+    
+}
+
+/* a{
+    text-decoration: none;
+    background-color: white;
+    margin-left: 50px;
+} */

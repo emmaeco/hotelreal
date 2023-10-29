@@ -1,0 +1,35 @@
+nav{
+    background: green;
+    display:  flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    
+}
+nav div h1{
+    color: white;
+    text-decoration: underline;
+}
+
+ 
+ul li{
+    list-style: none;
+   
+}
+
+ul li a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+   transition: all ease 0.5s;
+
+}
+
+ul li a:hover{
+    color: black;
+    background: white;
+    padding: 10px;
+    border-radius: 3px;
+}
